@@ -30,12 +30,23 @@ public class ctlSuperHeroes {
                 
         LinkedList<Poder> poder = new LinkedList<>();
         poder.add(new Poder("Volar",300.000,24,"volar.png",dotacion));
-        poder.add(new Poder("Telequinesis",300.000,48,"volar.png",dotacion2));
-        poder.add(new Poder("Invisibilidad",500.000,12,"volar.png",dotacion3));
-        poder.add(new Poder("Nadar Bajo Agua",300.000,24,"volar.png",dotacion));
-        poder.add(new Poder("Teletrasportacion",700.000,48,"volar.png",dotacion2));
-        poder.add(new Poder("Cambia Formas",800.000,12,"volar.png",dotacion3));
+        poder.add(new Poder("Invisibilidad",500.000,12,"invisibilidad.png",dotacion3));
+        poder.add(new Poder("Respirar Bajo Agua",300.000,24,"respirar.png",dotacion));
+        poder.add(new Poder("Super Fuerza",700.000,48,"fuerza.png",dotacion2));
+        poder.add(new Poder("Super Velocidad",800.000,12,"velocidad.png",dotacion3));
         return poder; 
+    }
+    
+    public void AdicionarPoderCarrito(){
+        
+    }
+    
+    public void EliminarPoderCarrito(){
+        
+    }
+    
+    public void ConsultarPoderesCarrito(){
+        
     }
 }
 
